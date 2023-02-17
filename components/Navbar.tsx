@@ -14,14 +14,14 @@ function Navbar() {
         height={90}
         />
         <div className='flex flex-col'>
-          <Link to='/' className='text-xs text-[rgb(253,110,227)] cursor-pointer'>PROJECTS</Link>
-          <Link to='/' className='text-xs text-[rgb(253,110,227)] cursor-pointer'>ABOUT</Link>
-          <Link to='/' className='text-xs text-[rgb(253,110,227)] cursor-pointer'>CONTACT</Link>
+          <Link to='/' className='text-xs text-pink cursor-pointer'>PROJECTS</Link>
+          <Link to='/' className='text-xs text-pink cursor-pointer'>ABOUT</Link>
+          <Link to='/' className='text-xs text-pink cursor-pointer'>CONTACT</Link>
         </div>
         <div className='flex flex-col'>
-          <Link to='/' className='text-xs text-[rgb(253,110,227)] cursor-pointer'>INSTAGRAM</Link>
-          <Link to='/' className='text-xs text-[rgb(253,110,227)] cursor-pointer'>TWITTER</Link>
-          <Link to='/' className='text-xs text-[rgb(253,110,227)] cursor-pointer'>VIMEO</Link>
+          <Link to='/' className='text-xs text-pink cursor-pointer'>INSTAGRAM</Link>
+          <Link to='/' className='text-xs text-pink cursor-pointer'>TWITTER</Link>
+          <Link to='/' className='text-xs text-pink cursor-pointer'>VIMEO</Link>
         </div>
     </nav>
   )

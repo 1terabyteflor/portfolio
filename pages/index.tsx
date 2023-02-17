@@ -24,6 +24,7 @@ export default function Home() {
       </Head>
       <Splash/>
       <main>
+        <Navbar/>
         <Principal/>
         <About/>
       </main>
