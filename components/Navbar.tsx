@@ -6,7 +6,7 @@ import { Link } from "react-scroll/modules";
 
 function Navbar() {
   return (
-    <nav className='w-full top-0 z-10 bg-transparent backdrop-filter bg-opacity-20 my-auto py-4 sticky flex justify-between px-4'>
+    <nav className='w-full top-0 z-10 bg-transparent backdrop-filter my-auto py-4 sticky flex justify-between px-4'>
       <Image
         src={logo}
         alt="Plantasia"
