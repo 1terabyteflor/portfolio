@@ -9,12 +9,21 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      'pink': '#FD6EE3',
-      'red': '#871027',
-      'gray-dark': '#1e1e1e',
-      'white': '#f3f3f3',
-    },
+    extend: {
+      dropShadow: {
+        'main': '0 0 5px #871027',
+      },
+      colors: {
+        'pink': '#FD6EE3',
+        'red': '#871027',
+        'gray-dark': '#1e1e1e',
+        'white': '#f3f3f3',
+      },
+      fontFamily: {
+        pinyon: 'Pinyon Script, cursive',
+        nunito: 'Nunito Sans, light'
+      }
+    }
   },
   plugins: [],
 }
