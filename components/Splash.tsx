@@ -4,12 +4,14 @@ import AnimatedTextTitle from '../components/AnimatedTextTitle'
 
 function Splash() {
   return (
-    <div className='w-full flex flex-col'>
-      <div className="flex flex-col flex-start flex-wrap justify-center w-[100%] h-screen bg-[url('/1.png')] px-5">
+    <div className='w-full flex items-center relative justify-center h-screen overflow-hidden'>
+      <div className='relative z-30 p-5'>
         <AnimatedTextTitle text="Plantasia"/>
-          <hr className='border-1 border-pink'/>
-          <h3 className="font-nunito italic text-pink mt-2 flex justify-end text-2xl tracking-[.5em]">VISUAL ARTIST</h3>
       </div>
+      <video autoPlay loop muted className="absolute z-10 w-auto min-w-full min-h-full max-w-none">
+        <source src="/26.mp4" type="video/mp4"/>Your browser does not support the video tag.
+      </video>
+
     </div>
 )
 }
