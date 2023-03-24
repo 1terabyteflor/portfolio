@@ -40,7 +40,7 @@ const AnimatedTextTitle = ({ text }) => {
       style={{ overflow: "hidden", display: "flex" }}
       variants={container}
       initial="hidden"
-      className="font-pinyon text-9xl text-pink drop-shadow-main" 
+      className="text-9xl text-pink drop-shadow-main font-pinyon" 
       animate="visible"
     >
       {letters.map((letter, index) => (

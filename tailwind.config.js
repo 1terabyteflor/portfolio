@@ -20,8 +20,8 @@ module.exports = {
         'white': '#f3f3f3',
       },
       fontFamily: {
-        pinyon: 'Pinyon Script, cursive',
-        nunito: 'Nunito Sans, light'
+        'pinyon': ['Pinyon Script', 'cursive'],
+        'nunito': ['Nunito', 'regular']
       }
     }
   },
