@@ -16,7 +16,7 @@ function Navbar() {
         />
         <div className='flex flex-col text-xs text-pink cursor-pointer'>
           <Link 
-            to='/' 
+            to='projects' 
             spy={true}
             smooth={true}
             offset={0}
