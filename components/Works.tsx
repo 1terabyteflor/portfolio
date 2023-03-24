@@ -18,7 +18,7 @@ function Works({image, title, description, date}
           <p className='lg:ml-10'>{date}</p>
         </div>
       </div>
-      <video autoPlay loop muted className="absolute z-10 min-h-screen max-w-screen object-cover">
+      <video autoPlay loop muted playsInline className="absolute z-10 min-h-screen max-w-screen object-cover">
         <source src={image} type="video/mp4"/>Your browser does not support the video tag.
       </video>
 
