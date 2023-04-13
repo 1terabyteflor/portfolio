@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
 
 function About() {
   return (
@@ -9,8 +8,12 @@ function About() {
       </video>
       <div className='flex flex-col justify-center items-center px-2 py-2 lg:px-40 bg-black border-none'>
         <h2 className="text-pink text-7xl font-pinyon">About Me</h2>
-        <p className="text-white font-nunito uppercase text-xs">Florencia Gomez is a visual artist and developer interested in the rarities of code and software to create oniric, synthetic and unknown atmospheres.
-        <br></br>Her exploration is based on footage from movies, processed by programs and algorithms, including the error and the creativity of her own computer. Actually, her best friend is Touchdesigner.<br></br>Cinema, video-art and narrative audiovisual world is a source of creation and inspiration for her project as Plantasia, thus collaborating with different sound artists, musicians and labels as a VJ and visual producer.</p>
+        <p className="text-white font-nunito uppercase text-xs text-justify">I'm a developer and visual artist with a passion for fusing my programming skills with creativity to construct visually appealing and interactive projects. As a visual artist, I enjoy exploring a variety of techniques and tools to create detail-oriented and abstract pieces, utilizing software such as TouchDesigner, Blender, P5.js. Also, Photoshop, Premiere, and After Effects for post-production.
+        <br></br>
+        Throughout my career, I've had the opportunity to work with diverse clients, ranging from corporate to small groups and personal projects. I apply an innovative eye with animation, digital media, 3D libraries, and art direction while using technologies such as React, Next.js, and React Native.
+        <br></br>
+        Both disciplines are equally important for me, they coexist and merge to create challenging and collaborative projects that attract to a wide range of audiences.
+        </p>
       </div>
     </div>
   )
