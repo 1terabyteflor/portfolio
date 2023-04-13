@@ -37,9 +37,11 @@ export default function Home() {
 
         {/* <Splash/>
         <Presentation/> */}
-        <Works image='/insmnio.mp4' title="Insomnio" description="Integer a nibh metus. Maecenas dictum turpis nec magna elementum, imperdiet rutrum dui rhoncus. Aliquam fermentum maximus felis, eu vulputate lacus vulputate et. Pellentesque suscipit vehicula nulla ac auctor. " date="/ 2023"/>
-        <Works image='/gavu.mp4' title="Contemplation" description="Live A/V set with Gavu, musician and producer who presented his new EP 'Contemplation'. Audioreactive patches and another monochromatic textures made with Touchdesigner were played. The location was in Tecnópolis - Arte, Ciencia y Tecnología. " date="/ 2022"/>
-        <Works image='/fucsia.mp4' title="Sáccea x Plantasia" description="Live A/V set with the producer Sáccea in the PULSO Festival, directed by the University of Tres de Febrero (UNTREF). " date="/ 2022"/>        <About/>
+        <Works image='/insmnio.mp4' title="Insomnia" description="First single of homonym A/V project, Insomnia. Released by Tenebre. Unknown, oniric landscapes interfering with your dreams. " date="/ 2023"/>
+        <Works image='/gavu.mp4' title="Contemplation A/V performance" description="Live set with Gavu who presented his new EP 'Contemplation'. We worked with Touchdesigner for audioreactive patches and monochromatic textures." date="/ 2022"/>
+        <Works image='/fucsia.mp4' title="Sáccea x Plantasia" description="Live A/V set with Sáccea in the PULSO Festival, directed by the University of Tres de Febrero (UNTREF)" date="/ 2022"/>
+        <Works image='/c7preview.mp4' title="C7 Studio" description="Live A/V set with Sáccea in the PULSO Festival, directed by the University of Tres de Febrero (UNTREF)" date="/ 2023"/>                
+        <About/>
         <Contact/>
         <Footer/>
       </main>

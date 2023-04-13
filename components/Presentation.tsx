@@ -9,7 +9,7 @@ function Presentation() {
             <p className='font-nunito text-sm uppercase text-pink lg:max-w-[40%] text-center mt-4'>Multidisciplinary artist with a background in software development and a strong passion for visual art, experimental media, and digital projects.</p>
           </div>
 
-        <video autoPlay loop muted playsInline className="absolute z-10 w-auto min-w-full min-h-full max-w-none filter blur-sm invert-[.85] contrast-200 hover:blur-0 hover:invert-0">
+        <video autoPlay loop muted playsInline className="absolute z-10 w-auto min-w-full min-h-full max-w-none filter blur-sm contrast-200 hover:blur-0">
             <source src="/pres.mp4" type="video/mp4"/>Your browser does not support the video tag.
         </video>
     </div>
