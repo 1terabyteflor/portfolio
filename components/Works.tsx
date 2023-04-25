@@ -10,7 +10,7 @@ function Works({image, title, description, date}
   };
 
   return (
-    <div className='w-full relative flex justify-start align-bottom h-screen overflow-hidden grayscale hover:grayscale-0 hover:contrast-100 hover:invert-0 invert' id='projects'>
+    <div className='w-full relative flex justify-start align-bottom h-screen overflow-hidden grayscale hover:grayscale-0 hover:contrast-100' id='projects'>
       <div className='flex flex-col z-30 justify-end align-bottom p-5'>
         <h1 className='font-pinyon text-6xl text-pink drop-shadow-main'>{title}</h1>
         <div className='font-nunito text-sm uppercase text-pink flex'>
