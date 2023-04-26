@@ -37,10 +37,10 @@ export default function Home() {
 
         {/* <Splash/>
         <Presentation/> */}
-        <Works image='/insmnio.mp4' title="Insomnia" description="First single of homonym A/V project, Insomnia. Released by Tenebre. Unknown, oniric landscapes interfering with your dreams. " date="/ 2023"/>
-        <Works image='/gavu.mp4' title="Contemplation A/V performance" description="Live set with Gavu who presented his new EP 'Contemplation'. We worked with Touchdesigner for audioreactive patches and monochromatic textures." date="/ 2022"/>
-        <Works image='/fucsia.mp4' title="Sáccea x Plantasia" description="Live A/V set with Sáccea in the PULSO Festival, directed by the University of Tres de Febrero (UNTREF)" date="/ 2022"/>
-        <Works image='/c7preview.mp4' title="C7 Studio" description="Live A/V set with Sáccea in the PULSO Festival, directed by the University of Tres de Febrero (UNTREF)" date="/ 2023"/>                
+        <Works image='/insmnio.mp4' title="Insomnia" description="First single of homonym A/V project, Insomnia. Released by Tenebre. Unknown, oniric landscapes interfering with your dreams. " date="/ 2022" link="https://tenebre.vercel.app/"/>
+        <Works image='/gavu.mp4' title="Contemplation A/V performance" description="Live set with Gavu who presented his new EP 'Contemplation'. We worked with Touchdesigner for audioreactive patches and monochromatic textures." date="/ 2022" link="https://vimeo.com/757996801"/>
+        <Works image='/fucsia.mp4' title="Sáccea x Plantasia" description="Live A/V set with Sáccea in the PULSO Festival, directed by the University of Tres de Febrero (UNTREF)" date="/ 2022" link="https://vimeo.com/760097250"/>
+        <Works image='/c7preview.mp4' title="C7 Studio" description="C7 Studio is a creative agency based on collaboration." date="/ 2022" link="https://landing-plum-sigma.vercel.app/"/>                
         <About/>
         <Contact/>
         <Footer/>

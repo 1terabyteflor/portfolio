@@ -1,8 +1,9 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React, { useState } from 'react'
 
-function Works({image, title, description, date} 
-    : {image: string, title: string, description: string, date: string}) {
+function Works({image, title, description, date, link} 
+    : {image: string, title: string, description: string, date: string, link: string}) {
   const [isReady, setIsReady] = useState(false);
 
   const onLoadCallback = () => {
@@ -16,7 +17,7 @@ function Works({image, title, description, date}
         <div className='font-nunito text-sm uppercase text-pink flex'>
           <p className='lg:w-[50%]'>{description}</p>
           <p className='lg:ml-10'>{date}</p>
-          <p className='lg:ml-10'>{date}</p>
+          <Link className='lg:ml-10' href={link}>/ go to project </Link>
         </div>
       </div>
       <video autoPlay loop muted playsInline className="absolute z-10 min-h-screen max-w-screen object-cover">

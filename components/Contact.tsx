@@ -13,8 +13,7 @@ function Contact() {
           </div>
           <div className='pr-10 flex flex-col'>
             <p className='font-pinyon text-3xl text-pink'>or download:</p>
-            <Link className='font-pinyon text-2xl sm:text-7xl text-pink hover:text-red underline' href='http://notion.so'>CV</Link>
-            <Link className='font-pinyon text-2xl sm:text-7xl text-pink hover:text-red underline pt-8' href='http://notion.so'>Touchdesigner Patch</Link>
+            <Link className='font-pinyon text-2xl sm:text-7xl text-pink hover:text-red underline' href='https://www.notion.so/Florencia-Gomez-82eed371b19347b0a08a0ecafafbb316'>CV</Link>
           </div>
         </div>
     </div>
