@@ -14,30 +14,33 @@ function Navbar() {
         width={150}
         height={90}
         />
-        <div className='flex flex-col text-xs text-pink cursor-pointer'>
+        <div className='flex flex-col'>
           <Link 
             to='projects' 
             spy={true}
             smooth={true}
+            className='links'
             offset={0}
             duration={500}>PROJECTS</Link>
           <Link
             to='about' 
+            className='links'
             spy={true}
             smooth={true}
             offset={0}
             duration={500}
           >ABOUT</Link>
           <Link to='contact' 
+            className='links'
             spy={true}
             smooth={true}
             offset={0}
             duration={500}>CONTACT</Link>
         </div>
         <div className='flex flex-col'>
-          <NextLink href='http://instagram.com/plantasia111' target="_blank" className='text-xs text-pink cursor-pointer'>INSTAGRAM</NextLink>
-          <NextLink href='http://vimeo.com/1terabyteflor' target="_blank" className='text-xs text-pink cursor-pointer'>VIMEO</NextLink>
-          <NextLink href='http://github.com/1terabyteflor' target="_blank" className='text-xs text-pink cursor-pointer'>GITHUB</NextLink>
+          <NextLink href='http://instagram.com/plantasia111' target="_blank" className='links'>INSTAGRAM</NextLink>
+          <NextLink href='http://vimeo.com/1terabyteflor' target="_blank" className='links'>VIMEO</NextLink>
+          <NextLink href='http://github.com/1terabyteflor' target="_blank" className='links'>GITHUB</NextLink>
         </div>
     </nav>
   )
