@@ -20,6 +20,7 @@
   line-height: 1rem/* 16px */;
   color: #FD6EE3;
   cursor: pointer;
+  padding-right: 1.25rem;
 }
 
 .links:hover {
