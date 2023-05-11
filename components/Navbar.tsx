@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import React, { useState } from 'react'
-import logo from '../public/plantasia-logo.svg'
+import Image from 'next/image';
+import React, { useState } from 'react';
+import logo from '../public/plantasia-logo.svg';
 import { Link } from "react-scroll/modules";
 
 

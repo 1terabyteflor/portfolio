@@ -8,14 +8,12 @@ function About() {
       </video>
       <div className='flex flex-col justify-center items-center px-2 py-2 lg:px-40 bg-black border-none'>
         <h2 className="text-pink text-7xl font-pinyon">About Me</h2>
-        <p className="text-white font-nunito text-xs text-justify">I&apos;m a developer and visual artist with a passion for fusing my programming skills with creativity to construct visually appealing and interactive projects. As a visual artist, I enjoy exploring a variety of techniques and tools to create detail-oriented and abstract pieces, utilizing software such as TouchDesigner, Blender, P5.js. Also, Photoshop, Premiere, and After Effects for post-production.
+        <p className="text-white font-nunito text-xs text-justify">My name is Florencia. As a visual artist, I explore a variety of techniques and tools to create detail-oriented and abstract pieces, using software such as TouchDesigner, Blender, P5.js. Also, Photoshop, Premiere, and After Effects for post-production.
         <br></br>
         <br></br>
-
-        Throughout my career, I&apos;ve had the opportunity to work with diverse clients, ranging from corporate to small groups and personal projects. I apply an innovative eye with animation, digital media, 3D libraries, and art direction while using technologies such as React, Next.js, and React Native.
+        Throughout my career, I&apos;ve had the opportunity to work with diverse clients from corporate to small groups. I apply an innovative eye with animation, digital media, 3D libraries, and art direction while using technologies such as React, Next.js, and React Native.
         <br></br>
         <br></br>
-
         Both disciplines are equally important for me, they coexist and merge to create challenging and collaborative projects that attract to a wide range of audiences.
         </p>
       </div>
