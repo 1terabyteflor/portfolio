@@ -1,6 +1,5 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState } from 'react'
+import React from 'react'
 
 function Works({image, title, description, date, link} 
     : {image: string, title: string, description: string, date: string, link: string}) {
