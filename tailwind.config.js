@@ -21,7 +21,9 @@ module.exports = {
       },
       fontFamily: {
         'pinyon': ['Pinyon Script', 'cursive'],
-        'nunito': ['Nunito', 'regular']
+        'nunito': ['Nunito', 'regular'],
+        'mundial': ['mundial', 'sans-serif'],
+        'filmotype-yale': ['filmotype-yale', 'sans-serif']
       }
     }
   },

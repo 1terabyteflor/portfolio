@@ -50,7 +50,7 @@ function Navbar() {
             to='projects' 
             spy={true}
             smooth={true}
-            className='links'
+            className='links font-mundial'
             offset={0}
             onClick={() => setNavbar(!navbar)}
             duration={500}>PROJECTS</Link>
@@ -58,7 +58,7 @@ function Navbar() {
             <li>
               <Link
                 to='about' 
-                className='links'
+                className='links font-mundial'
                 spy={true}
                 smooth={true}
                 offset={0}
@@ -68,7 +68,7 @@ function Navbar() {
             </li>
             <li>
              <Link to='contact' 
-              className='links'
+              className='links font-mundial'
               spy={true}
               smooth={true}
               offset={0}
