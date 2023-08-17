@@ -20,6 +20,7 @@ export default function Home() {
         <Preloader/>
         <Navbar/>
         <Splash/>
+        <Works image='/przc.mp4' title="PRZCPRZC Plantasia" description="Live A/V set in Tecnópolis" date="/ 2023" link="https://www.youtube.com/watch?v=A_egq3eObYQ"/>
         <Works image='/insmnio.mp4' title="Insomnia" description="First single of homonym A/V project, Insomnia. Released by Tenebre. Unknown, oniric landscapes interfering with your dreams. " date="/ 2022" link="https://tenebre.vercel.app/"/>
         <Works image='/gavu.mp4' title="Contemplation A/V performance" description="Live set with Gavu who presented his new EP 'Contemplation'. We worked with Touchdesigner for audioreactive patches and monochromatic textures." date="/ 2022" link="https://vimeo.com/757996801"/>
         <Works image='/fucsia.mp4' title="Sáccea x Plantasia" description="Live A/V set with Sáccea in the PULSO Festival, directed by the University of Tres de Febrero (UNTREF)" date="/ 2022" link="https://vimeo.com/760097250"/>

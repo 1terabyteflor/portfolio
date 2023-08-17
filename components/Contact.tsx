@@ -12,7 +12,7 @@ function Contact() {
             <Link className='font-filmotype-yale links text-xl sm:text-3xl underline text-pink hover:text-white' href='mailto:111plantasia111@gmail.com'>111plantasia111@gmail.com</Link>
             <div className='flex flex-col pb-20'>
               <Link className='font-filmotype-yale links lg:text-3xl underline pt-20 text-pink hover:text-white' href='https://instagram.com/plantasia111'>Instagram</Link>
-              <Link className= 'font-filmotype-yale links lg:text-3xl underline pt-2 text-pink hover:text-white' href='https://vimeo.com/1terabyteflor'>Vimeo</Link>
+              <Link className= 'font-filmotype-yale links lg:text-3xl underline pt-2 text-pink hover:text-white' href='https://vimeo.com/plantasia111'>Vimeo</Link>
               <Link className='font-filmotype-yale links lg:text-3xl underline pt-2 text-pink hover:text-white' href='https://github.com/1terabyteflor'>Github</Link>
             </div>
           </div>
