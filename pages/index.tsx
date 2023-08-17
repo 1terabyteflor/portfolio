@@ -9,18 +9,6 @@ import Works from '@/components/Works'
 import { useState, useEffect } from 'react'
 
 export default function Home() {
-  const [presentation, setShowPresentation] = useState(false);
-
-
-  useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      setShowPresentation(true);
-        window.scrollTo({ top: 800, behavior: "smooth" });
-      }, 3000);
-    return () => clearTimeout(timeoutId);
-  }, []);
-
-
   return (
     <>
       <Head>
@@ -33,7 +21,6 @@ export default function Home() {
       <main>
         <Navbar/>
         <Splash/>
-        {presentation && <Presentation/>}
         <Works image='/insmnio.mp4' title="Insomnia" description="First single of homonym A/V project, Insomnia. Released by Tenebre. Unknown, oniric landscapes interfering with your dreams. " date="/ 2022" link="https://tenebre.vercel.app/"/>
         <Works image='/gavu.mp4' title="Contemplation A/V performance" description="Live set with Gavu who presented his new EP 'Contemplation'. We worked with Touchdesigner for audioreactive patches and monochromatic textures." date="/ 2022" link="https://vimeo.com/757996801"/>
         <Works image='/fucsia.mp4' title="Sáccea x Plantasia" description="Live A/V set with Sáccea in the PULSO Festival, directed by the University of Tres de Febrero (UNTREF)" date="/ 2022" link="https://vimeo.com/760097250"/>
