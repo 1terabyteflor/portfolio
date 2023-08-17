@@ -4,7 +4,7 @@ import AnimatedTextTitle from '../components/AnimatedTextTitle'
 
 function Splash() {
   return (
-    <div className='w-full flex relative justify-center h-screen overflow-hidden'>
+    <div className='w-full flex items-center relative justify-center h-screen overflow-hidden'>
       <div className='relative z-30 p-5'>
         <AnimatedTextTitle text="Plantasia"/>
       </div>
